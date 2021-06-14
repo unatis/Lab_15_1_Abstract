@@ -4,7 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Animal myObj = new Animal(); // will generate an error
+        //Animal animal = new Animal();
+        Pig pig = new Pig();
+        pig.sleep();
+        pig.animalSound();
 
     }
 
